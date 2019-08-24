@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mancala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="controls" align="center">
+            <input type="button" id="btn_start" value="Start" />
+            <input type="button" id="btn_reset" value="Reset" />
+        </div>
+        <div id="status">
+            <span id="status_player1">&nbsp;</span>
+            <span id="header"></span>
+            <span id="status_player2">&nbsp;</span>
+        </div>
+        <div id="board" align="center">
+            <canvas height="450px" id="canvas"></canvas>
+        </div>
+    </div>
+    <script src="fabric.min.js"></script>
+    <script src="mancala.js"></script>
+</body>
+</html>

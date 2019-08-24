@@ -1,0 +1,42 @@
+#container{
+	width: 100%;
+	float: left;
+	display: block;
+}
+#board{
+	float: left;
+	background: url(bg.png);
+	background-repeat: no-repeat;
+}
+#status{
+	width: 100%;
+	margin: 5px 0 5px 0;
+	float: left;
+	font-weight: bold;
+	font-size: 16px;
+	border: 1px solid #EEE;
+	padding: 10px 0 10px 0;
+}
+#status span{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+#header{
+	font-weight: bold;
+	font-size: 18px;
+}
+#status_player1{
+	margin-left: 2%;
+}
+#status_player2{
+	margin-right: 2%;
+}
+#controls{
+	border: 1px solid #EEE;
+}
+#controls input{
+	margin: 5px 20px 5px 20px;
+	padding: 5px 20px 5px 20px;
+	font-size: 15px;
+}
